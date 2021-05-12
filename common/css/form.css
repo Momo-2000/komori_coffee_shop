@@ -1,0 +1,54 @@
+/* 問い合わせフォーム */
+#pageBody .InquiryForm{
+	border : solid 1px #CCCCCC; 
+}
+
+#pageBody .InquiryForm .items:after{
+	content : "";
+	clear : both;
+	display : block;
+}
+#pageBody .InquiryForm .items{
+		height : 60px;
+		resize: both;
+}
+#pageBody .InquiryForm .itemName{
+	width : 30%;
+	height : 100%;
+	background-color : #DDDDDD;
+	padding : 20px;
+	border-right : solid 1px #CCCCCC; 
+	border-bottom : solid 1px #CCCCCC; 
+	box-sizing : border-box;
+	float : left;
+
+}
+#pageBody .InquiryForm .inputContent{
+	width : 70%;
+	height : 100%;
+	padding : 20px;
+	border-bottom : solid 1px #CCCCCC; 
+	box-sizing : border-box;
+	float : right;
+
+}
+#pageBody .InquiryForm #textarea{
+	height : 190px;
+}
+#pageBody .InquiryForm #submitArea{
+	text-align : center;
+}
+ #pageBody .InquiryForm #submit{
+	width : 180px;
+	height : 40px;
+	font-size : 24px;
+	display: inline-block;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+	color: #FFFFFF;
+	background: #fd9535;/*背景色*/
+	border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
+	border-radius: 4px;/*角の丸み*/
+	box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+	margin : 10px auto;
+ }
